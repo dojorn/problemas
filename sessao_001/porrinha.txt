@@ -1,0 +1,5 @@
+Problema: Porrinha (ou purrinha)
+
+> Na porrinha, cada jogador recebe 3 palitos e esconde na mão quantos desejar. Em seguida, cada um dá um palpite de quanto é a somatória de todos os palitos escondidos em todas as mãos. Quem acertar, ganha a rodada. Se nenhum dos jogadores acertar, ocorrerá empate. O jogador vencedor recebe um palito de cada jogador perdedor.
+
+Faça um programa que implemente o jogo porrinha e retorne o nome de quem venceu ou "Empate", caso não haja vencedor. O programa também deve retornar a quantidade de palitos que cada jogador vencedor vai receber. Caso sobrem palitos (da divisão entre os jogadores vencedores), esses serão jogados fora.

@@ -1,0 +1,21 @@
+Conta do #horaextra
+
+Viktor mora em um país longíquo e frio, chamado Krakóvia, que está passando por tempos difíceis. Viktor trabalha com Java (Oracle, por favor não me processe!) em uma empresa de desenvolvimento de software e após um dia de trabalho ele geralmente vai para o #horaextra com alguns amigos em um bar, para beber algumas cervejas e sonhar com tempos melhores.
+
+Devido a alguns problemas econômicos, a inflação está muito alta na Krakóvia e uma cerveja custa 5.400.000.000 dólares krakovianos. Por conta disso, é difícil conferir o valor da conta e dividi-lo igualmente entre Viktor e seus amigos. Como você tem um bom coração, você decidiu ajudá-los a solucionar esse problema.
+
+Escreva um programa que receba como entrada o número de amigos na mesa e uma série de itens consumidos (somente o valor).
+
+Seu programa deve retornar como saída quanto cada amigo deve pagar. Mostre somente o valor inteiro desconsiderando as casas decimais já que na Krakóvia não existe centavos.
+
+Lembre-se de adicionar 10% de taxa de serviço na conta já que na Krakóvia se ganha muito mal servindo clientes em um bar.
+
+
+Entrada exemplo
+mesa com 5 amigos
+consumir(5400000000)
+consumir(5400000000)
+consumir(9800000000)
+consumir(2200000000)
+consumir(5400000000)
+dividir_conta()

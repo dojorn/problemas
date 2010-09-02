@@ -1,0 +1,16 @@
+Problema: Golfe
+
+> No golfe, existe:
+Par = Número de tacadas de um buraco.
+Tacadas = Número de tacadas efetivas de um jogador.
+Pontos = Número de tacadas do jogador - "Par"
+
+Quando o jogador faz o mesmo número de jogadas do buraco, ele faz um "par".
+Quando o jogador finaliza o buraco com o "par" menos 1 tacada, ele faz um "birdie".
+Quando o jogador finaliza o buraco com o "par" menos 2 tacadas, ele faz um "eagle".
+Quando o jogador finaliza o buraco com o "par" menos 3 tacadas, ele faz um "double eagle".
+Quando o jogador finaliza o buraco com uma única tacada, ele faz um "hole-in-one".
+Quando o jogador finaliza o buraco com uma tacada a mais que o "par", ele faz um "bogey".
+Quando o jogador finaliza o buraco com duas ou mais tacadas que o "par", ele faz um "double bogey".
+
+Escreva um programa que dado o "par" do buraco e o número de tacadas que o jogador precisou, imprime o nome da jogada que o jogador fez. Assegure-se que o programa retornará "hole-in-one" em uma jogada mesmo que ela tenha outro nome possível.

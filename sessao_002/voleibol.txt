@@ -1,0 +1,59 @@
+Problema: Volleyball
+
+Em uma partida de Volleyball temos dois times ABC e America :)
+
+Cada time tem 6 jogadores cada um com um número na camisa: 1, 2, 3, 4, 5 e 6
+
+Em uma jogada tradicional, um time realiza um saque que deve ir para a quadra adversária. Então o time adversário (caso a bola não toque o chão) pode passar a bola por até 3 jogadores antes de devolvê-la para a quadra do primeiro time.
+
+Um time ganha um ponto se:
+ - jogar a bola no chão da quadra do adversário
+ - no time adversário mais de 3 jogadores tocarem na bola
+ - 2 toques de algum jogador do time adversário
+ - o time adversário jogar a bola pra fora da quadra
+ - o time adversário jogar a bola dentro de sua própria quadra
+ - o time adversário jogar a bola na rede
+ - no saque, o time adversário não jogar a bola para o outro time
+
+Escreva um programa que receba como entrada várias jogadas e indique que time ganhou um ponto.
+
+Uma jogada é um representada por uma lista com a origem e os destinos da bola que podem ser:
+
+"ABC 1" => Jogador 1 do ABC
+"ABC 2" => Jogador 2 do ABC
+...
+"ABC 6" => Jogador 6 do ABC
+"America 1" => Jogador 1 do America
+"America 2" => Jogador 2 do America
+...
+"America 6" => Jogador 6 do America
+"Quadra ABC" => Chão da quadra do ABC
+"Quadra America" => Chão da quadra do America
+"Fora" => "Fora da quadra"
+"Rede" => "Bola na rede"
+
+
+Exemplos de algumas jogadas:
+["ABC 1", "America 2", "America 3", "America 4", "Quadra ABC"]
+Resultado: "Ponto para o America"
+
+("America 2", "Rede")
+Resultado: "Ponto para o ABC"
+
+("America 4", "ABC 1", "ABC 4", "ABC 4")
+Resultado: "Ponto para o America"
+
+("America 4", "ABC 1", "ABC 4")
+Resultado: "Jogada incompleta"
+
+("ABC 1", "America 2", "America 3", "America 4", "Quadra ABC", "ABC 3")
+Resultado: "Ponto para o America"
+
+
+DICA:
+ESTADO:
+estado
+- time com a posse da bola
+- quantidade de toques do time
+- ultimo jogador que tocou a bola
+- se a jogada ja finalizou
